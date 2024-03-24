@@ -1,0 +1,88 @@
+
+
+
+
+
+.solid{
+    width: 100%;
+    height: 450px;
+    background: url("https://aniga.me/wp-content/uploads/2020/03/Naruto_Anigame_bg.jpg")no-repeat center/cover;
+    border-bottom: 60px solid rgba(0, 0, 0, 0.548);
+
+     animation: anim 3s ease-in-out infinite;
+    position: absolute;
+    top: -450px;
+    transition: top 1s ease-in-out;
+}  
+
+.solid:hover{
+    top: 0;
+}
+.solid h1{
+    font-size: 90px;
+    text-align: center;
+    padding-top: 60px;
+    color: chocolate;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+@keyframes anim{
+    0%{
+        background: url("https://aniga.me/wp-content/uploads/2020/03/Naruto_Anigame_bg.jpg")no-repeat center/cover;  
+    }
+    50%{
+        background: url("https://media.myshows.me/shows/760/3/e8/3e8e697187b0fdb49941ecf22db5b9b3.jpg")no-repeat center/cover;
+    }
+    100%{
+        background: url("https://aniga.me/wp-content/uploads/2020/03/Naruto_Anigame_bg.jpg")no-repeat center/cover;
+    }
+}
+
+
+
+.conteiner{
+width: 1300px;
+ 
+}
+
+
+
+.header-left {
+    margin: 60px;
+    width: 100%;
+    height: 100px;
+    background: rgb(255, 252, 252);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0  3px 13px  rgb(128, 128, 128);
+    
+}
+.header-left button{
+    width: 90px;
+    height: 50px;
+    border-radius: 30px;
+    background: rgb(221, 255, 0);
+    animation: anime 6s infinite ease-in-out;
+}
+@keyframes anime{
+    0%{
+        background: rgb(255, 255, 220);
+    }
+10%{
+    background: rgb(211, 211, 83); 
+}
+20%{
+    background: rgba(255, 255, 220, 0.523); 
+}
+    50%{
+        background: rgba(231, 247, 0, 0.125);
+    }
+    100%{
+        background: rgb(239, 245, 72);
+    }
+}
+
+
